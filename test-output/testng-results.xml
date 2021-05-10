@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="34285" started-at="2021-05-09T11:32:11 IST" finished-at="2021-05-09T11:32:45 IST">
+    <groups>
+    </groups>
+    <test name="Automation Results" duration-ms="34285" started-at="2021-05-09T11:32:11 IST" finished-at="2021-05-09T11:32:45 IST">
+      <class name="testScripts.TC_LGN_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.TC_LGN_001@1794d431]" name="setup" is-config="true" duration-ms="5791" started-at="2021-05-09T11:32:11 IST" finished-at="2021-05-09T11:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_LGN_001()[pri:0, instance:testScripts.TC_LGN_001@1794d431]" name="TC_LGN_001" duration-ms="9549" started-at="2021-05-09T11:32:17 IST" finished-at="2021-05-09T11:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LGN_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.TC_LGN_001@1794d431]" name="tearDown" is-config="true" duration-ms="126" started-at="2021-05-09T11:32:26 IST" finished-at="2021-05-09T11:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TC_LGN_001 -->
+      <class name="testScripts.TC_LGN_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.TC_LGN_002@42e26948]" name="setup" is-config="true" duration-ms="3677" started-at="2021-05-09T11:32:27 IST" finished-at="2021-05-09T11:32:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_LGN_002()[pri:0, instance:testScripts.TC_LGN_002@42e26948]" name="TC_LGN_002" duration-ms="14948" started-at="2021-05-09T11:32:30 IST" finished-at="2021-05-09T11:32:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LGN_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.TC_LGN_002@42e26948]" name="tearDown" is-config="true" duration-ms="137" started-at="2021-05-09T11:32:45 IST" finished-at="2021-05-09T11:32:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TC_LGN_002 -->
+    </test> <!-- Automation Results -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
