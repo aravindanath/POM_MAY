@@ -33,6 +33,10 @@ public class LoginPage  extends BasePage{
     @FindBy(id="RememberMe")
     WebElement rememberMeCheckBox;
 
+    @FindBy(xpath = "//h1[text()='Admin area demo']")
+    WebElement adminTitle;
+
+
     HashMap<String, String> lp;
 
 
@@ -51,6 +55,10 @@ public class LoginPage  extends BasePage{
         System.out.println(driver.getCurrentUrl());
     }
 
+
+    public void verifyAdminPage(){
+        assertTitle(adminTitle,"Admin area demo");
+    }
 
 
 
